@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.image-row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.message, .message-2 {
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.7);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.message p {
+    margin: 10px 0;
+}
+
+.message-2 p {
+    margin: 8px 0;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.next-button, .no-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.next-button {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.no-button {
+    background-color: #bbbbbb;
+    color: black;
+}
+
+.next-button:hover {
+    background-color: #ff1493;
+}
+
+.no-button:hover {
+    background-color: #9e9e9e;
+}
